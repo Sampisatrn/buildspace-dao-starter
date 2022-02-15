@@ -4,8 +4,8 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
-  color: #fff;
+  background-image:linear-gradient(280deg,#13be2a, #840ae7);
+  color: rgb(255, 255, 255);
   overflow-x: hidden;
 }
 #root {
@@ -111,12 +111,12 @@ h1 {
   padding: 1rem;
   border-radius: 1rem;
   color: #000;
-  box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.4);
+  box-shadow: 3.1px 6.2px 6.2px rgba(196, 0, 170, 0.473);
 }
 
 button {
   cursor: pointer;
-  background-color: #000;
+  background-color: rgb(204, 0, 223);
   color: #fff;
   border: none;
   font-weight: bold;
@@ -128,11 +128,11 @@ button {
 }
 
 button:hover {
-  background-color: #121212;
+  background-color: #bd00ce;
 }
 
 button:focus {
-  background-color: #222;
+  background-color: rgb(62, 0, 87);
 }
 
 button:disabled {

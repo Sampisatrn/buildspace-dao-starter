@@ -1,10 +1,10 @@
 # buildspace x thirdweb - Build your own DAO with just Javascript
 
-### **Welcome 👋**
-To get started with this course, clone this repo and follow these commands:
+### **Welcome To OrpheoDAO👋**
+This is my project build with BuildSpace course, clone this repo and follow these commands:
 
-1. Run `npm install` at the root of your directory
-2. Run `npm start` to start the project
+1. Run `yarn install` at the root of your directory
+2. Run `yarn start` to start the project
 3. Start coding!
 
 ### **Questions?**
