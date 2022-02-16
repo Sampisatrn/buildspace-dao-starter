@@ -6,14 +6,17 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // Some quick checks to make sure our .env is working.
+// eslint-disable-next-line eqeqeq
 if (!process.env.PRIVATE_KEY || process.env.PRIVATE_KEY == "") {
   console.log("🛑 Private key not found.")
 }
 
+// eslint-disable-next-line eqeqeq
 if (!process.env.ALCHEMY_API_URL || process.env.ALCHEMY_API_URL == "") {
   console.log("🛑 Alchemy API URL not found.")
 }
 
+// eslint-disable-next-line eqeqeq
 if (!process.env.WALLET_ADDRESS || process.env.WALLET_ADDRESS == "") {
   console.log("🛑 Wallet Address not found.")
 }

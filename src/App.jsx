@@ -57,6 +57,7 @@ useEffect(() => {
     .catch((err) => {
       console.error("failed to get proposals", err);
     });
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, [hasClaimedNFT]);
 
 // We also need to check if the user already voted.
@@ -85,6 +86,7 @@ useEffect(() => {
     .catch((err) => {
       console.error("failed to check if wallet has voted", err);
     });
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, [hasClaimedNFT, proposals, address]);
 
 // This useEffect grabs all the addresses of our members holding our NFT.
@@ -134,6 +136,7 @@ useEffect(() => {
     .catch((err) => {
       console.error("failed to get token amounts", err);
     });
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, [hasClaimedNFT]);
 
 const voteModule = sdk.getVoteModule(
